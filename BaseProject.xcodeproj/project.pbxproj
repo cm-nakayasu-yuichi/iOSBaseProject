@@ -12,7 +12,7 @@
 		E40DD4AB208387E000338989 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40DD4AA208387E000338989 /* TextField.swift */; };
 		E40DD4BC2083900700338989 /* Collection+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40DD4B42083900600338989 /* Collection+App.swift */; };
 		E40DD4BD2083900700338989 /* UIView+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40DD4B52083900600338989 /* UIView+App.swift */; };
-		E40DD4BE2083900700338989 /* String+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40DD4B62083900600338989 /* String+App.swift */; };
+		E40DD4BE2083900700338989 /* String+Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40DD4B62083900600338989 /* String+Substring.swift */; };
 		E40DD4BF2083900700338989 /* Notification+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40DD4B72083900600338989 /* Notification+App.swift */; };
 		E40DD4C02083900700338989 /* UIColor+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40DD4B82083900600338989 /* UIColor+App.swift */; };
 		E40DD4C12083900700338989 /* UIViewController+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40DD4B92083900600338989 /* UIViewController+App.swift */; };
@@ -22,7 +22,7 @@
 		E40DD4CE20842B7A00338989 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40DD4C820842B7A00338989 /* Api.swift */; };
 		E40DD4CF20842B7A00338989 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40DD4CA20842B7A00338989 /* Weather.swift */; };
 		E40DD4D020842B7A00338989 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40DD4CC20842B7A00338989 /* User.swift */; };
-		E40DD4D220843F9900338989 /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40DD4D120843F9800338989 /* StringTests.swift */; };
+		E40DD4D220843F9900338989 /* StringSubstringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40DD4D120843F9800338989 /* StringSubstringTests.swift */; };
 		E47DF9A7207F159A00C30987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47DF9A5207F159A00C30987 /* Main.storyboard */; };
 		E47DF9A9207F159B00C30987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47DF9A8207F159B00C30987 /* Assets.xcassets */; };
 		E47DF9AC207F159B00C30987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47DF9AA207F159B00C30987 /* LaunchScreen.storyboard */; };
@@ -66,7 +66,7 @@
 		E40DD4AA208387E000338989 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		E40DD4B42083900600338989 /* Collection+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+App.swift"; sourceTree = "<group>"; };
 		E40DD4B52083900600338989 /* UIView+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+App.swift"; sourceTree = "<group>"; };
-		E40DD4B62083900600338989 /* String+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+App.swift"; sourceTree = "<group>"; };
+		E40DD4B62083900600338989 /* String+Substring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Substring.swift"; sourceTree = "<group>"; };
 		E40DD4B72083900600338989 /* Notification+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Notification+App.swift"; sourceTree = "<group>"; };
 		E40DD4B82083900600338989 /* UIColor+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+App.swift"; sourceTree = "<group>"; };
 		E40DD4B92083900600338989 /* UIViewController+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+App.swift"; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		E40DD4C820842B7A00338989 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		E40DD4CA20842B7A00338989 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		E40DD4CC20842B7A00338989 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		E40DD4D120843F9800338989 /* StringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
+		E40DD4D120843F9800338989 /* StringSubstringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringSubstringTests.swift; sourceTree = "<group>"; };
 		E47DF99E207F159A00C30987 /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47DF9A6207F159A00C30987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E47DF9A8207F159B00C30987 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -222,7 +222,7 @@
 		E47DF9B5207F159B00C30987 /* BaseProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				E40DD4D120843F9800338989 /* StringTests.swift */,
+				E40DD4D120843F9800338989 /* StringSubstringTests.swift */,
 				E47DF9B6207F159B00C30987 /* BaseProjectTests.swift */,
 				E47DF9B8207F159B00C30987 /* Info.plist */,
 			);
@@ -251,7 +251,7 @@
 				E40DD4BA2083900600338989 /* CoreGraphics+Geometry.swift */,
 				E40DD4B72083900600338989 /* Notification+App.swift */,
 				E40DD4BB2083900700338989 /* Number+App.swift */,
-				E40DD4B62083900600338989 /* String+App.swift */,
+				E40DD4B62083900600338989 /* String+Substring.swift */,
 				E40DD4B82083900600338989 /* UIColor+App.swift */,
 				E40DD4B52083900600338989 /* UIView+App.swift */,
 				E40DD4B92083900600338989 /* UIViewController+App.swift */,
@@ -544,7 +544,7 @@
 				E47DF9FE207F376D00C30987 /* ListCell.swift in Sources */,
 				E40DD4C32083900700338989 /* Number+App.swift in Sources */,
 				E40DD4AB208387E000338989 /* TextField.swift in Sources */,
-				E40DD4BE2083900700338989 /* String+App.swift in Sources */,
+				E40DD4BE2083900700338989 /* String+Substring.swift in Sources */,
 				E47DF9FB207F331800C30987 /* ListAdapter.swift in Sources */,
 				E47DF9CA207F178600C30987 /* AppDelegate.swift in Sources */,
 				E47DF9EA207F1A0300C30987 /* KeyboardObserver.swift in Sources */,
@@ -565,7 +565,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E40DD4D220843F9900338989 /* StringTests.swift in Sources */,
+				E40DD4D220843F9900338989 /* StringSubstringTests.swift in Sources */,
 				E47DF9B7207F159B00C30987 /* BaseProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -26,7 +26,7 @@ class BootstrapViewController: UITableViewController {
         (section: "簡易テスト",
          rows: [
             (title: "機能テスト", handler: { vc in
-                print("ABCDEFG".substring(position: 2, length: 10))
+                print("ABCDEFG".substring(location: 5, length: 10))
             }),
         ]),
     ]

@@ -22,6 +22,7 @@
 		E40DD4CE20842B7A00338989 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40DD4C820842B7A00338989 /* Api.swift */; };
 		E40DD4CF20842B7A00338989 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40DD4CA20842B7A00338989 /* Weather.swift */; };
 		E40DD4D020842B7A00338989 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40DD4CC20842B7A00338989 /* User.swift */; };
+		E40DD4D220843F9900338989 /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40DD4D120843F9800338989 /* StringTests.swift */; };
 		E47DF9A7207F159A00C30987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47DF9A5207F159A00C30987 /* Main.storyboard */; };
 		E47DF9A9207F159B00C30987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47DF9A8207F159B00C30987 /* Assets.xcassets */; };
 		E47DF9AC207F159B00C30987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47DF9AA207F159B00C30987 /* LaunchScreen.storyboard */; };
@@ -75,6 +76,7 @@
 		E40DD4C820842B7A00338989 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		E40DD4CA20842B7A00338989 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		E40DD4CC20842B7A00338989 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E40DD4D120843F9800338989 /* StringTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
 		E47DF99E207F159A00C30987 /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47DF9A6207F159A00C30987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E47DF9A8207F159B00C30987 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 		E47DF9B5207F159B00C30987 /* BaseProjectTests */ = {
 			isa = PBXGroup;
 			children = (
+				E40DD4D120843F9800338989 /* StringTests.swift */,
 				E47DF9B6207F159B00C30987 /* BaseProjectTests.swift */,
 				E47DF9B8207F159B00C30987 /* Info.plist */,
 			);
@@ -562,6 +565,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E40DD4D220843F9900338989 /* StringTests.swift in Sources */,
 				E47DF9B7207F159B00C30987 /* BaseProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

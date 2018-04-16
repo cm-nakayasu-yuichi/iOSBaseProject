@@ -7,13 +7,32 @@ extension String {
     
     static let empty = ""
     
-    func substring(position: Int, length: Int) -> String {
-        let st = index(startIndex, offsetBy: position)
-        let ed = index(startIndex, offsetBy: position + (length - 1))
-        if st > ed {
+    func substring(location: Int, length: Int) -> String {
+        if location < 0 || count <= location || length <= 0 {
             return .empty
         }
-        let sub = self[st...ed]
+        
+        let maxlen = count - location
+        let len = (length <= maxlen ? length : maxlen) - 1
+        
+        let start = index(startIndex, offsetBy: location)
+        let end = index(startIndex, offsetBy: location + len)
+        if start > end {
+            return .empty
+        }
+        let sub = self[start...end]
         return String(sub)
+    }
+    
+    func substring(start location: Int) -> String {
+        return substring(location: location, length: count - location)
+    }
+    
+    func substring(end location: Int) -> String {
+        return substring(location: 0, length: location + 1)
+    }
+    
+    func substring(range: NSRange) -> String {
+        return substring(location: range.location, length: range.length)
     }
 }

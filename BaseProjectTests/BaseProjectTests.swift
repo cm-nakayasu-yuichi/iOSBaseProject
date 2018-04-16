@@ -1,11 +1,6 @@
 //
-//  BaseProjectTests.swift
-//  BaseProjectTests
+//  Copyright (C) Nakayasu Yuichi All rights reserved.
 //
-//  Created by nakayasu.yuichi on 2018/04/12.
-//  Copyright © 2018年 cm-pliser. All rights reserved.
-//
-
 import XCTest
 @testable import BaseProject
 
@@ -32,5 +27,4 @@ class BaseProjectTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-    
 }

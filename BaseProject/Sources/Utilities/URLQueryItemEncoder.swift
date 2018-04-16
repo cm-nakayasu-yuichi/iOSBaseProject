@@ -13,6 +13,10 @@ class URLQueryItemEncoder: Encoder {
         // NOP.
     }
     
+    func encode<T>(_ value: T) throws -> [URLQueryItem] where T : Encodable {
+        return []
+    }
+    
     func container<Key>(keyedBy type: Key.Type) -> KeyedEncodingContainer<Key> where Key : CodingKey {
         <#code#>
     }

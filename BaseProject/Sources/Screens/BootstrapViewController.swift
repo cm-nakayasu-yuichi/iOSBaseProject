@@ -26,7 +26,15 @@ class BootstrapViewController: UITableViewController {
         (section: "簡易テスト",
          rows: [
             (title: "機能テスト", handler: { vc in
-                print("ABCDEFG".substring(location: 5, length: 10))
+                let user = User(name: "Tom", email: "tom@email.com")
+                
+                let d = try! JSONEncoder().encode(user)
+                let s = String(data: d, encoding: .utf8)!
+                print(s)
+                
+                let d1 = try! URLQueryItemEncoder().encode(user)
+                //let s1 = String(data: d1, encoding: .utf8)!
+                print(d1)
             }),
         ]),
     ]

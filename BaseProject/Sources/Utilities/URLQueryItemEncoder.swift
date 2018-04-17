@@ -9,7 +9,7 @@ class URLQueryItemEncoder: Encoder {
     
     var userInfo: [CodingUserInfoKey : Any] = [:]
     
-    fileprivate var datastore = [Any]()
+    fileprivate var queryItems = [URLQueryItem]()
     
     init() {
         // NOP.

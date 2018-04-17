@@ -9,6 +9,8 @@ class URLQueryItemEncoder: Encoder {
     
     var userInfo: [CodingUserInfoKey : Any] = [:]
     
+    fileprivate var datastore = [Any]()
+    
     init() {
         // NOP.
     }
@@ -38,6 +40,7 @@ private class URLQueryItemEncoderKeyedContainer<Key: CodingKey>: KeyedEncodingCo
     init(encoder: URLQueryItemEncoder, codingPath: [CodingKey]) {
         self.encoder = encoder
         self.codingPath = codingPath
+        encoder.datastore.append([URLQueryItem]())
     }
     
     func encodeNil(forKey key: Key) throws {

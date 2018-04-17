@@ -32,7 +32,13 @@ class URLQueryItemEncoder: Encoder {
 
 private class URLQueryItemEncoderKeyedContainer<Key: CodingKey>: KeyedEncodingContainerProtocol {
     
-    var codingPath: [CodingKey]
+    private(set) var codingPath: [CodingKey]
+    private var encoder: URLQueryItemEncoder
+    
+    init(encoder: URLQueryItemEncoder, codingPath: [CodingKey]) {
+        self.encoder = encoder
+        self.codingPath = codingPath
+    }
     
     func encodeNil(forKey key: Key) throws {
         <#code#>

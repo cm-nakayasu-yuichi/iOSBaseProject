@@ -121,10 +121,10 @@ private class URLQueryItemEncoderKeyedContainer<Key: CodingKey>: KeyedEncodingCo
     }
     
     func superEncoder() -> Encoder {
-        <#code#>
+        return encoder
     }
     
     func superEncoder(forKey key: Key) -> Encoder {
-        <#code#>
+        return encoder
     }
 }

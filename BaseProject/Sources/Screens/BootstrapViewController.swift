@@ -32,9 +32,12 @@ class BootstrapViewController: UITableViewController {
                 let s = String(data: d, encoding: .utf8)!
                 print(s)
                 
-                let d1 = try! URLQueryItemEncoder().encode(user)
-                //let s1 = String(data: d1, encoding: .utf8)!
-                print(d1)
+                let queryItems = try! URLQueryItemEncoder().encode(user)
+                print(queryItems)
+                
+                var urlComponents = URLComponents(string: "http://hogehoge.com")
+                urlComponents?.queryItems = queryItems
+                print(urlComponents?.url?.absoluteString)
             }),
         ]),
     ]
